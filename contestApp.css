@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+.each_card{
+  
+  background-color:bisque;
+  transition: background 0.5s ,transform 0.5s;
+}
+.each_card:hover{
+  color:yellow;
+  border-color: #2c3e50;
+  background-image:linear-gradient(to right, #2c3e50, #4ca1af);
+  transform: translateY(-8px);
+}
+/* .card-body{
+  transition: background 0.5s ,transform 0.5s;
+}
+.each-body:hover{
+  background: #ff004f;
+  transform: translateY(-8px);
+} */
